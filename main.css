@@ -192,7 +192,7 @@ main h2+p,main h3+p{margin-top:14px}
 .pcard h3 a:hover{color:var(--blue);text-decoration:underline}
 .pcard p{font-size:14.5px;color:var(--muted)}
 footer{background:#fff;border-top:4px solid var(--deep);padding:50px 0 34px;font-size:14.5px}
-footer .wrap{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:32px}
+footer .wrap{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;gap:28px}
 footer .fh{color:var(--ink);font-size:16px;margin-bottom:12px}
 footer a{color:var(--muted);text-decoration:none;display:block;margin-bottom:8px}
 footer a:hover{color:var(--blue)}
@@ -260,3 +260,9 @@ footer .wrap{grid-template-columns:1fr}
 .svcphoto:hover span{color:var(--blue);text-decoration:underline}
 @media (max-width:900px){.svcphotos{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.svcphotos{gap:12px}.svcphoto span{font-size:14.5px;padding:10px 11px}.card .cardimg{margin:-26px -26px 16px}}
+
+.svcphoto small{display:block;padding:0 14px 14px;font-size:13.5px;line-height:1.45;color:var(--muted);font-weight:400}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 22px}
+.chip{display:inline-block;padding:9px 14px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink);text-decoration:none;font-weight:600;font-size:14.5px}
+.chip:hover{border-color:var(--blue);color:var(--blue)}
+@media (max-width:560px){.svcphoto small{padding:0 11px 12px;font-size:13px}}
